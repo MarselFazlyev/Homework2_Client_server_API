@@ -5,9 +5,8 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class Client {
-    public static void main(String[] args) throws IOException {
-        String host = "localhost";
-//        String host = "netology.homework";
+    public static void main(String[] args) {
+        String host = "netology.homework";
         int port = 15131;
         String name = "Marsel";
 
